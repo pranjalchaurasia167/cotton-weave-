@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(188, 188, 195);
+}
+#main{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  gap: 60px;
+    align-items: flex-end;
+   padding:0 90px;
+   padding-top:120px;
+}
+#left{
+    height: 100%;
+    width: 45%;
+ padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left h1{
+    font-size: 120px;
+
+    font-weight: 400;
+    line-height: 110px;
+}
+
+#left-bottom{
+
+    height: 45%;
+    width: 100%;
+    
+}
+#color{
+      
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    
+    border-radius: 50px;
+    border: 2px solid saddlebrown;
+    
+}
+#color1{
+    height: 27px;
+    width:27px;
+    border-radius: 50%;
+    background-color: rgb(54, 12, 93);
+}
+#color2{
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: rgb(49, 4, 56);
+}
+#color h4{
+    margin-right: 10px;
+    font-weight: 500px;
+}
+#left-bottom h2{
+    font-size: 25px;
+    margin-top: 70px;
+    font-weight: 500;
+}
+#left-bottom p{
+    
+    margin-top: 10px;
+    font-size: 17px;
+    width: 60%;
+    font-weight: 500;
+    line-height: 28px;
+   
+}
+#right{
+    height: 90%;
+    width:33%;
+    padding-bottom: 0px;
+    position: relative;
+}
+#right-top{
+    display: flex;
+    height: 50px;
+    padding: 0 17px;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+#right-top h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+#right-top h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 3px;
+    padding:5px
+}
+#right-top h5 i{
+    size: 20px;
+    color: gold;
+}
+#right img{
+    width: 95%;
+ height: 93%;
+    object-fit: cover;
+    object-position: center;
+    padding-bottom: 10px;
+
+}
+#black{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color:#232a2d;
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    right: -9%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#black h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+#rotated{
+    position: absolute;
+    left: -4%;
+    bottom: 7%;
+    rotate: -90deg;
+    transform-origin: 0%;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
